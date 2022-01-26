@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style/input-form.css" />
+    <title>Contact form</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Anmeldung Boosterimpfung</h2>
+
+
+          <p>Bitte füllen Sie das Anmeldeformular aus</p>
+
+
+        <div class="form-control">
+          <label for="firstName">Vorname</label>
+          <input type="text" id="firstName" placeholder="Geben sie Ihren Vornamen ein" />
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="lastName">Nachname</label>
+          <input type="text" id="lastName" placeholder="Geben sie Ihren Nachnamen ein" />
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Geben Sie Ihre Email ein" />
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="geburtstag">Geburtsdatum</label>
+          <input type="date" id="geburtstag" placeholder="Geburtsdatum einfügen">
+          <small>Error message</small>
+          </div>
+
+          <div class="form-control">
+            <label for="adress">Adresse + Hausnummer</label>
+            <input type="text" id="adress" placeholder="Geben Sie Ihre Adresse ein" />
+            <small>Error message</small>
+          </div>
+
+          <div class="form-control">
+            <label for="zipcode">Postleitzahl</label>
+            <input type="text" id="zipcode" placeholder="Geben Sie Ihre Postleitzahl ein" />
+            <small>Error message</small>
+          </div>
+
+          <div class="form-control">
+          <label for="city">Stadt</label>
+          <input type="text" id="city" placeholder="Geben Sie Ihre Stadt ein" />
+          <small>Error message</small>
+        </div>
+
+          <div class="form-control">
+            <label for="phone">Telefonnummer</label>
+            <input type="tel" id="phone" name="phone" placeholder="Telefonnummer einfügen +41">
+            <small>Error message</small>
+          </div>
+
+        <!-- Begin -->
+
+        <!-- Ende -->
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="script/validate-inputs.js"></script>
+    <script src="script/network.js"></script>
+    <script src="script/ui.js"></script>
+  </body>
+</html>
